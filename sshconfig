@@ -1,0 +1,13 @@
+Host sohu.com
+    HostName sohu.com
+    User cyclone
+    Port 9000
+    IdentityFile /home/local/ANT/cyclone/.ssh/id_rsa
+
+Host github.com
+    HostName github.com
+    User abc@qq.com
+    IdentityFile /home/local/ANT/cyclone/.ssh/id_rsa.github
+
+Host *
+	KexAlgorithms +diffie-hellman-group1-sha1
